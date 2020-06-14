@@ -4,6 +4,8 @@
 
 A super easy way to run [Jupyter notebooks](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html) with [Pandas](https://pandas.pydata.org/pandas-docs/stable/index.html) locally without installing anything.
 
+Assumes you have Docker installed.
+
 ## How?
 
 This project contains everything you need to build and run a custom Docker container to execute a Jupyter notebook with Pandas locally.
