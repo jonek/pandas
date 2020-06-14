@@ -14,4 +14,4 @@ It is derived from the [Jupyter base notebook](https://jupyter-docker-stacks.rea
 ./run.sh
 ```
 
-Now point your browser to `http://localhost:8088`.
+A browser window should open automatically showing the [ExampleNotebook.ipynb](/example/ExampleNotebook.ipynb) automatically.
