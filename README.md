@@ -18,7 +18,7 @@ It is derived from the [Jupyter base notebook](https://jupyter-docker-stacks.rea
 ./stop.sh
 ```
 
-A browser window should open automatically showing the [ExampleNotebook.ipynb](/example/ExampleNotebook.ipynb) automatically.
+A browser window should open automatically showing the [ExampleNotebook.ipynb](/example/ExampleNotebook.ipynb).
 
 ## Options
 
