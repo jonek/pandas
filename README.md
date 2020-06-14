@@ -14,6 +14,8 @@ It is derived from the [Jupyter base notebook](https://jupyter-docker-stacks.rea
 ```sh
 ./build.sh
 ./run.sh
+# do some work with your notebooks
+./stop.sh
 ```
 
 A browser window should open automatically showing the [ExampleNotebook.ipynb](/example/ExampleNotebook.ipynb) automatically.
