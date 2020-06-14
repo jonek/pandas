@@ -19,3 +19,20 @@ It is derived from the [Jupyter base notebook](https://jupyter-docker-stacks.rea
 ```
 
 A browser window should open automatically showing the [ExampleNotebook.ipynb](/example/ExampleNotebook.ipynb) automatically.
+
+## Options
+
+You can optionally specify custom directories to be mounted into the Docker container:
+
+- `DATA_DIR`  
+  mounted to `/data` inside the container  
+  *(default: `$(pwd)/data`)*
+- `NOTEBOOK_DIR`  
+  mounted to `/notebooks` inside the container  
+  *(default: `$(pwd)/example`)*
+
+Specify the variables like this when executing `run.sh`:
+
+```sh
+$ DATA_DIR=/home/foo/someData NOTEBOOK_DIR=/home/foo/myNotebooks ./run.sh
+```
